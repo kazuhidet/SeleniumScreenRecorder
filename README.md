@@ -1,5 +1,5 @@
 # ScreenRecorder
-Seleniumのテストケースにスクリーン録画の機能を追加するためのクラス
+Class for adding screen recording function to Selenium testcase.
 
 ## Install
 
