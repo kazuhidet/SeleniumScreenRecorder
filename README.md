@@ -17,6 +17,12 @@ or
 mvn31 install
 ```
 
+Once it installs with maven, the test will be executed so we will try Google search by autopilot, so if failed the test due to changes in Google etc, you can run maven with the -Dmaven.test.skip=true option and skip test.
+
+```
+mvn31 install -Dmaven.test.skip=true
+```
+
 ## Usage
 
 Below is the procedure for implementing the screen recording function in your Selenium testcase using this class.
